@@ -1,0 +1,149 @@
+* {
+    box-sizing: border-box; 
+    border: 1px dashed #ccc;
+}
+/*Body starts*/
+img {
+    max-width: 100%;
+}
+body{
+    color: #2d2d2d;
+    text-align: center;
+    font-family: 'Raleway';
+    line-height: 2em;
+    font-weight: normal; 
+}
+h1,h2,h3 {
+    font-family: 'Playfair Display';
+}
+header{
+    display: flex;
+    text-transform: uppercase;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.logo{
+    text-align: left;
+}
+.aloha-logo{
+    
+    width: 180px;
+    text-align: left;
+}
+.main-nav {
+    display: flex; 
+    padding: 0; 
+    justify-content: center;
+}
+nav li a{
+    text-decoration: none;
+    color:#e2574c;
+    padding-right: 10px;
+
+}
+.cart{
+    text-align: right;
+}
+.cart-icon{
+    width: 70px;
+    text-align: right;
+}
+ul{
+    list-style-type: none;
+    margin: 0 auto;
+}
+/*Banner section*/
+.banner {
+    padding: 100px 0;
+    position: relative;
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 50px;
+    /* background-color: rgba(255,0,0,1); */
+    height: 400px;
+    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(images/banner-girl.png), url(images/flower-bkgd.jpg); 
+    background-position: center, center 100px, top center;
+    background-size: cover, contain, cover;
+    background-repeat: no-repeat, no-repeat, repeat;
+    /* background-image: linear-gradient(rgba(0,0,0,0.2) */
+    
+    
+}
+.banner_text {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+.container {
+    max-width: 1240px;
+    width: 100%;
+    margin: 0 auto;
+}
+/*category section*/
+
+nav a {
+    color:#fff;
+}
+.mens {
+
+    background: url("images/mens-category.jpg");
+    
+}
+.trends{
+    background: url("images/trends-category.jpg");
+}
+.glasses{
+    background: url("images/glasses-category.jpg");
+}
+.sales{
+    background: url("images/sale-category.jpg");
+}
+.bags{
+    background: url("images/bags-category.jpg");
+}
+.womens{
+    background: url("images/womens-category.jpg")
+
+}
+/*most loved product*/
+ul li h3 {
+    color:#e2574c;
+}
+/*sign-up for updates*/
+.sign-up-section{
+    background: url("images/wave-bkgd.jpg");
+    color: #fff;
+}
+/*footer section*/
+.flexed-footer{
+
+    display:flex;
+    justify-content: space-between;
+    background: #242424; 
+}
+.contact, a {
+    color: #fff;
+}
+.contact .address {
+    color:#969696;
+}
+.social{
+    color:#fff;
+}
+
+@media screen (min-width:600px){
+    .aloha-logo{ 
+        order: 1;
+        
+    .main-nav{
+        order: 3;
+    }
+    .cart{
+        order: 2;
+        
+    }
+
+}
