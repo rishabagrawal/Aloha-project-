@@ -25,6 +25,7 @@ header{
 }
 .logo{
     text-align: left;
+    order: 1;
 }
 .aloha-logo{
     
@@ -36,6 +37,9 @@ header{
     padding: 0; 
     justify-content: center;
 }
+.nav-nav{
+    order: 3;
+}
 nav li a{
     text-decoration: none;
     color:#e2574c;
@@ -44,6 +48,7 @@ nav li a{
 }
 .cart{
     text-align: right;
+    order:2
 }
 .cart-icon{
     width: 70px;
@@ -64,7 +69,7 @@ ul{
     height: 400px;
     background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(images/banner-girl.png), url(images/flower-bkgd.jpg); 
     background-position: center, center 100px, top center;
-    background-size: cover, contain, cover;
+    background-size: contain, contain, contain;
     background-repeat: no-repeat, no-repeat, repeat;
     /* background-image: linear-gradient(rgba(0,0,0,0.2) */
     
@@ -78,7 +83,7 @@ ul{
     color: white;
 }
 .container {
-    max-width: 1240px;
+    max-width: 600px;
     width: 100%;
     margin: 0 auto;
 }
@@ -134,16 +139,23 @@ ul li h3 {
     color:#fff;
 }
 
-@media screen (min-width:600px){
-    .aloha-logo{ 
-        order: 1;
+/*Media query section*/
+
+@media screen and (min-width:600px){
+    .logo{ 
+        order: 1;}
         
-    .main-nav{
-        order: 3;
+    .nav-nav {
+        order: 2;
     }
     .cart{
-        order: 2;
+        order: 3;
         
     }
 
+}
+@media screen and (min-width:1240px){
+.container {
+    max-width: 1240px; 
+}
 }
