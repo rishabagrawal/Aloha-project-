@@ -87,7 +87,7 @@ ul{
 .container {
     max-width: 600px;
     width: 100%;
-    margin: 0 auto;
+    margin: 0 auto; 
 }
 /*category section*/
 
@@ -96,7 +96,7 @@ nav a {
 }
 .category-list {
     display: flex;
-    padding: 0;
+    padding: 0; 
     flex-wrap: wrap; 
 }
 .category {
@@ -151,6 +151,9 @@ nav a {
 ul li h3 {
     color:#e2574c;
 }
+.products ul {
+    display: flex;
+}
 /*sign-up for updates*/
 .sign-up-section{
     background: url("images/wave-bkgd.jpg");
@@ -159,6 +162,8 @@ ul li h3 {
     background-size: cover;
     background-repeat: no-repeat;
     height: 300px;
+    display: flex;
+    
 }
 
 .footer-wrapper {
