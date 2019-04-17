@@ -1,6 +1,6 @@
 * {
     box-sizing: border-box; 
-    border: 1px dashed #ccc;
+    
 }
 /*Body starts*/
 img {
@@ -15,6 +15,7 @@ body{
 }
 h1,h2,h3 {
     font-family: 'Playfair Display';
+    font-weight: normal;
 }
 header{
     display: flex;
@@ -39,6 +40,7 @@ header{
 }
 .nav-nav{
     order: 3;
+    width: 100%;
 }
 nav li a{
     text-decoration: none;
@@ -48,7 +50,7 @@ nav li a{
 }
 .cart{
     text-align: right;
-    order:2
+    order:2;
 }
 .cart-icon{
     width: 70px;
@@ -92,25 +94,57 @@ ul{
 nav a {
     color:#fff;
 }
+.category-list {
+    display: flex;
+    padding: 0;
+    flex-wrap: wrap; 
+}
+.category {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .mens {
 
     background: url("images/mens-category.jpg");
-    
+    background-size: cover;
+    width: 100vw;
+    height:50vw;
 }
 .trends{
     background: url("images/trends-category.jpg");
+    background-size: cover;
+    width: 50vw;
+    height: 50vw;
+    border: 2px solid white;
+    padding: 10px;
 }
 .glasses{
     background: url("images/glasses-category.jpg");
+    background-size: cover;
+    width: 50vw;
+    height: 50vw;
+    border: 2px solid white;
 }
 .sales{
     background: url("images/sale-category.jpg");
+    background-size: cover;
+    width: 50vw;
+    height: 50vw;
+    border: 2px solid white;
 }
 .bags{
     background: url("images/bags-category.jpg");
+    background-size: cover;
+    width:50vw;
+    height: 50vw;
+    border: 2px solid white;
 }
 .womens{
-    background: url("images/womens-category.jpg")
+    background: url("images/womens-category.jpg");
+    background-size: cover;
+    width: 100vw;
+    height: 50vw;
 
 }
 /*most loved product*/
@@ -121,13 +155,23 @@ ul li h3 {
 .sign-up-section{
     background: url("images/wave-bkgd.jpg");
     color: #fff;
+    background-position: bottom; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
 }
+
+.footer-wrapper {
+    background: #242424; 
+}
+
 /*footer section*/
 .flexed-footer{
 
     display:flex;
     justify-content: space-between;
     background: #242424; 
+    align-items: center;
 }
 .contact, a {
     color: #fff;
@@ -138,19 +182,59 @@ ul li h3 {
 .social{
     color:#fff;
 }
+.social i {
+    padding: 25px;
+    text-align: center;
+    
+}
+.social li a {
+    text-decoration: none;
+}
 
 /*Media query section*/
 
 @media screen and (min-width:600px){
     .logo{ 
         order: 1;}
+    
         
     .nav-nav {
-        order: 2;
+        order: 3;
+        text-align: center;
     }
     .cart{
-        order: 3;
+        order: 2;
         
+    }
+    .mens {
+        width:50%;
+        height: 25vw;
+        
+    }
+    .trends {
+       width: 25%;
+       height: 25vw;
+       border: 2px solid white;
+    }
+    .glasses{
+        width: 25%;
+        height: 25vw;
+        border: 2px solid white;
+    }
+    .sales{
+        width:25%;
+        height: 25vw;
+        border: 2px solid white;
+    }
+    .bags {
+        width:25%;
+        height: 25vw;
+        border: 2px solid white;
+    }
+    .womens {
+        width: 50%;
+        height: 25vw;
+        border: 2px solid white;
     }
 
 }
@@ -158,4 +242,16 @@ ul li h3 {
 .container {
     max-width: 1240px; 
 }
+.logo {
+    order:1;
+}
+.nav-nav {
+    order: 3;
+}
+.cart {
+    order: 2
+}
+/* catergory section*/
+
+
 }
