@@ -171,9 +171,11 @@ ul li h3 {
 }
 
 /*footer section*/
+
 .flexed-footer{
 
     display:flex;
+    flex-direction: column;
     justify-content: space-between;
     background: #242424; 
     align-items: center;
@@ -187,6 +189,13 @@ ul li h3 {
 .social{
     color:#fff;
 }
+.social li {
+    display: inline-block;
+   
+}
+.social ul{
+    text-align: justify;
+}
 .social i {
     padding: 25px;
     text-align: center;
@@ -194,6 +203,9 @@ ul li h3 {
 }
 .social li a {
     text-decoration: none;
+}
+.social span {
+    display: none;
 }
 
 /*Media query section*/
@@ -241,6 +253,18 @@ ul li h3 {
         height: 25vw;
         border: 2px solid white;
     }
+    .flexed-footer{
+        flex-wrap:wrap;
+        flex-direction: row;
+        
+    }
+    .social li {
+        display: block;
+    }
+    .social span {
+        display: inline-block;
+    }
+    
 
 }
 @media screen and (min-width:1240px){
