@@ -26,7 +26,7 @@ header{
 }
 .logo{
     text-align: left;
-    order: 1;
+    order: 1; 
 }
 .aloha-logo{
     
@@ -39,7 +39,7 @@ header{
     justify-content: center;
 }
 .nav-nav{
-    order: 3;
+    order: 3; 
     width: 100%;
 }
 nav li a{
@@ -50,7 +50,7 @@ nav li a{
 }
 .cart{
     text-align: right;
-    order:2;
+     order:2; 
 }
 .cart-icon{
     width: 70px;
@@ -212,16 +212,18 @@ ul li h3 {
 
 @media screen and (min-width:600px){
     .logo{ 
-        order: 1;}
+        order: 1;
+        width: 10%;
+    }
     
-        
     .nav-nav {
-        order: 3;
+        order: 2;
         text-align: center;
+        width: 20%;
     }
     .cart{
-        order: 2;
-        
+        order: 3;
+        width: 10%;
     }
     .mens {
         width:50%;
@@ -271,15 +273,7 @@ ul li h3 {
 .container {
     max-width: 1240px; 
 }
-.logo {
-    order:1;
-}
-.nav-nav {
-    order: 3;
-}
-.cart {
-    order: 2
-}
+
 /* catergory section*/
 
 
