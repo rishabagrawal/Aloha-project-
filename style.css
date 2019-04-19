@@ -155,6 +155,9 @@ ul li h3 {
 .products ul {
      /* display: flex; */
 }
+.product-section{
+    margin-bottom: 67px;
+}
 /*sign-up for updates*/
 .sign-up-section{
     background: url("images/wave-bkgd.jpg");
