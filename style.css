@@ -172,9 +172,9 @@ ul li h3 {
 .subscribe-button{
     border-radius: 50px;
     color:#fff;
-    right: 30%;
+    right: 8%;
     top: 60%;
-    position: absolute; 
+    position: relative; 
     width: 150px;
     height: 40px;
     background:#e2574c;
@@ -184,9 +184,9 @@ ul li h3 {
 
 .email-address{
     border-radius: 80px;
-    position: absolute;
+    position: relative;
     width:400px;
-    right: 30%;
+    right: -4%;
     height:40px;
 }
 
