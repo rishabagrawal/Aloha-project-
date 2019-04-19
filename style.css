@@ -203,6 +203,7 @@ ul li h3 {
     justify-content: space-between;
     background: #242424; 
     align-items: center;
+    height: 22em; 
 }
 .contact, a {
     color: #fff;
@@ -221,7 +222,7 @@ ul li h3 {
     text-align: justify;
 }
 .social i {
-    padding: 25px;
+    padding: 10px;
     text-align: center;
     
 }
