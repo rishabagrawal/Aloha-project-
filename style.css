@@ -166,6 +166,29 @@ ul li h3 {
     display: flex;
     
 }
+.subscribe{
+    position: relative;
+}
+.subscribe-button{
+    border-radius: 50px;
+    color:#fff;
+    right: 30%;
+    top: 60%;
+    position: absolute; 
+    width: 150px;
+    height: 40px;
+    background:#e2574c;
+    
+    
+}
+
+.email-address{
+    border-radius: 80px;
+    position: absolute;
+    width:400px;
+    right: 30%;
+    height:40px;
+}
 
 .footer-wrapper {
     background: #242424; 
