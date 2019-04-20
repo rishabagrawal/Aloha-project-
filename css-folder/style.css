@@ -2,6 +2,7 @@
     box-sizing: border-box; 
     
 }
+html {scroll-behavior: smooth;}
 /*Body starts*/
 img {
     max-width: 100%;
@@ -74,7 +75,7 @@ ul{
     margin-bottom: 50px;
     /* background-color: rgba(255,0,0,1); */
     height: 400px;
-    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(images/banner-girl.png), url(images/flower-bkgd.jpg); 
+    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(../images/banner-girl.png), url(../images/flower-bkgd.jpg); 
     background-position: center, center 100px, top center;
     background-size: contain, contain, contain;
     background-repeat: no-repeat, no-repeat, repeat;
@@ -129,13 +130,13 @@ nav a {
 }
 .mens {
 
-    background: url("images/mens-category.jpg");
+    background: url("../images/mens-category.jpg");
     background-size: cover;
     width: 100vw;
     height:50vw;
 }
 .trends{
-    background: url("images/trends-category.jpg");
+    background: url("../images/trends-category.jpg");
     background-size: cover;
     width: 50vw;
     height: 50vw;
@@ -143,28 +144,28 @@ nav a {
     padding: 10px;
 }
 .glasses{
-    background: url("images/glasses-category.jpg");
+    background: url("../images/glasses-category.jpg");
     background-size: cover;
     width: 50vw;
     height: 50vw;
     border: 2px solid white;
 }
 .sales{
-    background: url("images/sale-category.jpg");
+    background: url("../images/sale-category.jpg");
     background-size: cover;
     width: 50vw;
     height: 50vw;
     border: 2px solid white;
 }
 .bags{
-    background: url("images/bags-category.jpg");
+    background: url("../images/bags-category.jpg");
     background-size: cover;
     width:50vw;
     height: 50vw;
     border: 2px solid white;
 }
 .womens{
-    background: url("images/womens-category.jpg");
+    background: url("../images/womens-category.jpg");
     background-size: cover;
     width: 100vw;
     height: 50vw;
@@ -186,7 +187,7 @@ ul li h3 {
 }
 /*sign-up for updates*/
 .sign-up-section{
-    background: url("images/wave-bkgd.jpg");
+    background: url("../images/wave-bkgd.jpg");
     color: #fff;
     background-position: bottom; 
     background-size: cover;
