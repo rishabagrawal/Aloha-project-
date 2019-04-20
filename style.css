@@ -47,6 +47,10 @@ nav li a{
     text-decoration: none;
     color:#e2574c;
     padding-right: 10px;
+}
+
+a:hover {
+    color:#b64036;
 
 }
 .cart{
@@ -85,10 +89,24 @@ ul{
     transform: translate(-50%, -50%);
     color: white;
 }
+.banner_text p {
+    font-size: 21px;
+}
+.banner_text h1 {
+    font-size: 41px;
+}
 .container {
     max-width: 600px;
     width: 100%;
     margin: 0 auto; 
+}
+/* hand craftted section*/
+.hand-crafted h3 {
+    font-size: 40px;
+    font-style: italic;
+}
+.hand-crafted p {
+    font-weight: 300;
 }
 /*category section*/
 
@@ -99,6 +117,10 @@ nav a {
     display: flex;
     padding: 0; 
     flex-wrap: wrap; 
+    font-size: 30px;
+}
+.category-list li a {
+    text-decoration: none;
 }
 .category {
     display: flex;
@@ -158,6 +180,10 @@ ul li h3 {
 .product-section{
     margin-bottom: 67px;
 }
+.most-loved {
+    font-size: 40px;
+    font-style: italic;
+}
 /*sign-up for updates*/
 .sign-up-section{
     background: url("images/wave-bkgd.jpg");
@@ -169,15 +195,24 @@ ul li h3 {
     display: flex;
     
 }
+.sign-up-section h2{
+    font-size: 40px;
+    font-style: italic;
+
+}
+span {
+    font-style: normal;
+}
+
 .subscribe{
     position: relative;
 }
 .subscribe-button{
     border-radius: 50px;
     color:#fff;
-    right: 8%;
-    top: 60%;
-    position: relative; 
+    right: 1%;
+    top: 3%;
+    position: absolute; 
     width: 150px;
     height: 40px;
     background:#e2574c;
@@ -207,6 +242,7 @@ ul li h3 {
     background: #242424; 
     align-items: center;
     height: 22em; 
+    font-family: "Playfair Display";
 }
 .contact, a {
     color: #fff;
@@ -239,10 +275,20 @@ ul li h3 {
 .carousel-cell {
     width: 100%;
 }
+.carousel-cell p {
+    color:#969696;
+    font-weight: normal;
+    font-size: 13px;
+
+}
+.carousel-cell h3 {
+    font-size: 23px;
+}
 
 /*Media query section*/
 
 @media screen and (min-width:600px){
+
     .logo{ 
         order: 1;
         width: 10%;
@@ -287,6 +333,15 @@ ul li h3 {
         height: 25vw;
         border: 2px solid white;
     }
+    /* subscribtion button*/
+
+    .subscribe-button{
+        right: 8%;
+        top: 60%;
+        position: relative;
+    }
+    /* footer*/
+
     .flexed-footer{
         flex-wrap:wrap;
         flex-direction: row;
