@@ -364,6 +364,7 @@ span {
 @media screen and (min-width:1240px){
 .container {
     max-width: 1240px; 
+    width: 86%;
 }
 
 .carousel-cell {
