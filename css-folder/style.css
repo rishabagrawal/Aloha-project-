@@ -51,7 +51,7 @@ header{
 }
 nav li a{
     text-decoration: none;
-    color:#e2574c;
+    color:#db3a26;
     padding-right: 10px;
 }
 
@@ -178,7 +178,7 @@ nav a {
 }
 /*most loved product*/
 ul li h3 {
-    color:#e2574c;
+    color:#db3a26;
 }
 .products ul {
      /* display: flex; */
@@ -221,7 +221,7 @@ span {
     position: absolute; 
     width: 150px;
     height: 40px;
-    background:#e2574c;
+    background:#db3a26;
     
     
 }
@@ -254,7 +254,7 @@ span {
     color: #fff;
 }
 .contact .address {
-    color:#969696;
+    color:#767676;
 }
 .social{
     color:#fff;
@@ -282,7 +282,7 @@ span {
     width: 100%;
 }
 .carousel-cell p {
-    color:#969696;
+    color:#767676;
     font-weight: normal;
     font-size: 13px;
 
